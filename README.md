@@ -12,7 +12,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name readarr -p 8096:8096 -v /<host_folder_config>:/config hotio/readarr
+docker run --rm --name readarr -p 8787:8787 -v /<host_folder_config>:/config hotio/readarr
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
