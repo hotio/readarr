@@ -2,7 +2,7 @@ FROM hotio/dotnetcore@sha256:ea49e7840b1f17d3fb13050fca806957dc8d5cf32acbdd016f0
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
-EXPOSE 8096
+EXPOSE 8787
 
 ARG READARR_VERSION=0.1.0.17
 
