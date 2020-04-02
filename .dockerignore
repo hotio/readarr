@@ -1,0 +1,7 @@
+.git
+.gitignore
+.github
+.gitattributes
+.drone.yml
+README.md
+update.sh

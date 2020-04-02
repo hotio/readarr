@@ -1,0 +1,14 @@
+FROM hotio/dotnetcore@sha256:ea49e7840b1f17d3fb13050fca806957dc8d5cf32acbdd016f09c6b21beb4012
+
+ARG DEBIAN_FRONTEND="noninteractive"
+
+EXPOSE 8096
+
+ARG READARR_VERSION=0.1.0.17
+
+# install app
+RUN curl -fsSL "https://readarr.servarr.com/v1/update/readarr/updatefile?version=${READARR_VERSION}&os=linux&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
+    rm -rf "${APP_DIR}/Readarr.Update" && \
+    chmod -R u=rwX,go=rX "${APP_DIR}"
+
+COPY root/ /
