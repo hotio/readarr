@@ -40,7 +40,7 @@ You can also find tags that reference a commit or version number.
 
 ## Configuration location
 
-Your radarr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
+Your readarr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
 
 ## Executing your own scripts
 
