@@ -1,4 +1,6 @@
 # readarr
+Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks).</br>
+WARNING: Updates require a fresh database until further notice
 
 <img src="https://img.shields.io/badge/WARNING-Updates%20require%20a%20fresh%20database%20until%20further%20notice-orange" alt="WARNING"><br>
 <img src="https://img.shields.io/badge/WARNING-There's%20only%20a%20unstable%20tag%20for%20the%20moment-orange" alt="WARNING"><br>
