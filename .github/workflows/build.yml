@@ -48,8 +48,9 @@ jobs:
             --build-arg LABEL_SOURCE="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/tree/${GITHUB_REF//refs\/heads\//}" \
             --build-arg LABEL_VENDOR="${GITHUB_REPOSITORY%/*}" \
             --build-arg LABEL_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/blob/master/README.md" \
-            --build-arg LABEL_VERSION="${READARR_VERSION=0.1.0.247}" \
-            --build-arg READARR_VERSION="${READARR_VERSION=0.1.0.247}" \
+            --build-arg LABEL_VERSION="${READARR_VERSION=0.1.0.235}" \
+            --build-arg READARR_VERSION="${READARR_VERSION=0.1.0.235}" \
+            --build-arg READARR_BRANCH="${READARR_BRANCH=build-updates}" \
             --build-arg PACKAGE_VERSION="${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}" \
             --file ./${ARCHITECTURE}.Dockerfile ./
 
@@ -110,16 +111,12 @@ jobs:
           for registry in ${registries[*]}; do
             TAG_BASE="${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}"
             TAG="${TAG_BASE}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}"
-            docker manifest create ${registry}/${TAG_BASE} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
-            docker manifest push   ${registry}/${TAG_BASE}
-            docker manifest create ${registry}/${TAG_BASE}-${READARR_VERSION=0.1.0.247} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
-            docker manifest push   ${registry}/${TAG_BASE}-${READARR_VERSION=0.1.0.247}
+            docker manifest create ${registry}/${TAG_BASE}-${READARR_BRANCH=build-updates} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
+            docker manifest push   ${registry}/${TAG_BASE}-${READARR_BRANCH=build-updates}
+            docker manifest create ${registry}/${TAG_BASE}-${READARR_BRANCH=build-updates}-${READARR_VERSION=0.1.0.235} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
+            docker manifest push   ${registry}/${TAG_BASE}-${READARR_BRANCH=build-updates}-${READARR_VERSION=0.1.0.235}
             docker manifest create ${registry}/${TAG_BASE}-${GITHUB_SHA:0:7} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
             docker manifest push   ${registry}/${TAG_BASE}-${GITHUB_SHA:0:7}
-            if [[ ${GITHUB_REF//refs\/heads\//} == stable ]]; then
-              docker manifest create ${registry}/${GITHUB_REPOSITORY//docker-/}:latest --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
-              docker manifest push   ${registry}/${GITHUB_REPOSITORY//docker-/}:latest
-            fi
           done
 
       - name: Take screenshot
@@ -135,4 +132,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -u "${GITHUB_REPOSITORY%/*}:${GITHUB_TOKEN}" -fsSL https://gist.githubusercontent.com/${GITHUB_REPOSITORY%/*}/3d98159d47e0bf5eccbff221f1288472/raw/discord-action-notify.sh > discord-action-notify.sh
-          export VERSION_FIELD=${READARR_VERSION=0.1.0.247} && bash discord-action-notify.sh
+          export VERSION_FIELD=${READARR_VERSION=0.1.0.235} && bash discord-action-notify.sh

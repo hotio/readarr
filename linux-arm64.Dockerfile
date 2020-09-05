@@ -1,4 +1,4 @@
-FROM hotio/base@sha256:8093beffabeecf813686b51fdb5a9f517de02c1c8baf454bf7352988db58a6af
+FROM hotio/base:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
@@ -14,13 +14,14 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 ARG READARR_VERSION
+ARG READARR_BRANCH
 ARG PACKAGE_VERSION=${READARR_VERSION}
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
-    curl -fsSL "https://readarr.servarr.com/v1/update/nightly/updatefile?version=${READARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
+    curl -fsSL "https://readarr.servarr.com/v1/update/${READARR_BRANCH}/updatefile?version=${READARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Readarr.Update" && \
-    echo "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=nightly" > "${APP_DIR}/package_info" && \
+    echo "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=${READARR_BRANCH}" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
