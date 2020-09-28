@@ -33,11 +33,11 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag       | Description                                |
-| ----------|--------------------------------------------|
-| latest    | The same as `stable`                       |
-| stable    | Not yet available                          |
-| unstable  | Unstable version                           |
+| Tag              | Upstream          |
+| -----------------|-------------------|
+| release (latest) | not yet available |
+| testing          | not yet available |
+| nightly          | nightly           |
 
 You can also find tags that reference a commit or version number.
 
