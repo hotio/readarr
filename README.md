@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/WARNING-Updates%20require%20a%20fresh%20database%20until%20further%20notice-orange" alt="WARNING"><br>
 <img src="https://img.shields.io/badge/WARNING-There's%20only%20a%20'nightly'%20tag%20for%20the%20moment-orange" alt="WARNING"><br>
 
-<img src="https://hotio.dev/img/readarr.png" alt="Logo" height="130" width="130">
+![logo](https://hotio.dev/img/readarr.png)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-readarr)
