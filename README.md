@@ -1,5 +1,3 @@
-# readarr
-
 [<img src="https://hotio.dev/img/readarr.png" alt="logo" height="130" width="130">](https://github.com/Readarr/Readarr)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
