@@ -33,5 +33,6 @@ else
     [[ -z ${version} ]] && exit 1
     [[ ${version} == "null" ]] && exit 0
     echo "VERSION=${version}" > VERSION
+    echo '{"version":"'"${version}"'"}' > VERSION.json
     echo "##[set-output name=version;]${version}"
 fi
