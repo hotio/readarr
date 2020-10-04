@@ -32,11 +32,11 @@ The [highlighted](https://hotio.dev/containers/readarr) variables are all option
 
 ## Tags
 
-| Tag                | Upstream          | Version |
-| -------------------|-------------------|---------|
-| `release` (latest) | not yet available | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Frelease%2FVERSION.json) |
-| `testing`          | not yet available | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Ftesting%2FVERSION.json) |
-| `nightly`          | nightly           | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Fnightly%2FVERSION.json) |
+| Tag                | Upstream          | Version | Build |
+| -------------------|-------------------|---------|-------|
+| `release` (latest) | not yet available | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-readarr/build/release?style=flat-square&label=) |
+| `testing`          | not yet available | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-readarr/build/testing?style=flat-square&label=) |
+| `nightly`          | nightly           | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-readarr%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-readarr/build/nightly?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
 
