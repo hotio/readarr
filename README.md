@@ -7,8 +7,8 @@
 [![Upstream](https://img.shields.io/badge/upstream-project-ffb64c?style=flat-square)](https://github.com/readarr/readarr)
 [![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square)](https://hotio.dev/containers/readarr)
 
-<img src="https://img.shields.io/badge/WARNING-Updates%20require%20a%20fresh%20database%20until%20further%20notice-orange" alt="WARNING"><br>
-<img src="https://img.shields.io/badge/WARNING-There's%20only%20a%20'nightly'%20tag%20for%20the%20moment-orange" alt="WARNING"><br>
+![WARNING](https://img.shields.io/badge/WARNING-Updates%20require%20a%20fresh%20database%20until%20further%20notice-orange?style=flat-square)<br>
+![WARNING](https://img.shields.io/badge/WARNING-There's%20only%20a%20[nightly]%20tag%20for%20the%20moment-orange?style=flat-square)
 
 ## Starting the container
 
