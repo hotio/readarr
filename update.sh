@@ -24,7 +24,6 @@ else
     version=$(curl -fsSL "https://readarr.servarr.com/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     [[ ${version} == "null" ]] && exit 0
-    echo "VERSION=${version}" > VERSION
-    echo "BRANCH=${branch}" >> VERSION
-    echo "##[set-output name=version;]${version}"
+    echo '{"version":"'"${version}"'","branch":"'"${branch}"'"}' | jq . > VERSION.json
+    echo "##[set-output name=version;]${branch}-${version}"
 fi
