@@ -32,7 +32,6 @@ else
     version=$(curl -fsSL "https://readarr.servarr.com/v1/update/nightly/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     [[ ${version} == "null" ]] && exit 0
-    echo "VERSION=${version}" > VERSION
-    echo '{"version":"'"${version}"'"}' > VERSION.json
+    echo '{"version":"'"${version}"'"}' | jq . > VERSION.json
     echo "##[set-output name=version;]${version}"
 fi
