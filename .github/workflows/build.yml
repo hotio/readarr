@@ -67,6 +67,7 @@ jobs:
           echo ::set-output name=tag::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${{ matrix.architecture }}
           echo ::set-output name=version::$(jq -r '.version' < VERSION.json)
           echo ::set-output name=branch::$(jq -r '.branch' < VERSION.json)
+          echo ::set-output name=package_version::${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -90,7 +91,7 @@ jobs:
           build-args: |
             VERSION=${{ steps.prep.outputs.version }}
             BRANCH=${{ steps.prep.outputs.branch }}
-            PACKAGE_VERSION=${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
+            PACKAGE_VERSION=${{ steps.prep.outputs.package_version }}
 
       - name: Dive Analysis
         uses: yuichielectric/dive-action@0.0.4
