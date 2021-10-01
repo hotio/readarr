@@ -2,7 +2,8 @@ FROM ghcr.io/hotio/base@sha256:36b96946e2d3480de7e5212b33b07a56aa65052f26ce33cac
 
 EXPOSE 8787
 
-RUN apk add --no-cache libintl sqlite-libs icu-libs
+RUN apk add --no-cache libintl sqlite-libs icu-libs && \
+    apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community chromaprint
 
 ARG VERSION
 ARG PACKAGE_VERSION=${VERSION}
