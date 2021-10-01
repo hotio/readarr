@@ -2,14 +2,8 @@ FROM ghcr.io/hotio/base:alpine
 
 EXPOSE 8787
 
-# install packages
-RUN apt update && \
-    apt install -y --no-install-recommends --no-install-suggests \
-        libicu66 && \
-# clean up
-    apt autoremove -y && \
-    apt clean && \
-    rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
+RUN apk add --no-cache libintl sqlite-libs icu-libs && \
+    apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community chromaprint
 
 ARG VERSION
 ARG BRANCH
