@@ -2,8 +2,7 @@ FROM cr.hotio.dev/hotio/base:alpine
 
 EXPOSE 8787
 
-RUN apk add --no-cache libintl sqlite-libs icu-libs && \
-    apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community chromaprint
+RUN apk add --no-cache libintl sqlite-libs icu-libs
 
 ARG VERSION
 ARG BRANCH
