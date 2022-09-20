@@ -1,4 +1,5 @@
 {
+  "description": "nightly",
   "version": "0.1.1.1409",
   "sbranch": "nightly",
   "upstream_image": "cr.hotio.dev/hotio/base",
