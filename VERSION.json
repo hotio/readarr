@@ -1,4 +1,5 @@
 {
+  "latest": true,
   "description": "develop",
   "version": "0.1.1.1320",
   "upstream_image": "cr.hotio.dev/hotio/base",
