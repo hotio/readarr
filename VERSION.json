@@ -1,6 +1,6 @@
 {
   "description": "nightly",
-  "version": "0.1.5.1825",
+  "version": "0.1.5.1831",
   "sbranch": "nightly",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
