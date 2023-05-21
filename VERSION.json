@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "0.1.6.1844",
-  "branch": "api-books-main-edition",
+  "version": "0.1.6.1849",
+  "branch": "sonarr-pull-6118afa3",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:c1c852483290d0eea96fe5c1ca4b08d6f2056a7cd0c61459c77edeee9386822f",
