@@ -1,10 +1,10 @@
 {
   "description": "nightly",
-  "version": "0.3.4.2187",
+  "version": "0.3.4.2193",
   "sbranch": "nightly",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
-  "upstream_digest_amd64": "sha256:900e4d4190ce888480b287de41d7b9f8a0c65a14bc1e739feac814ceab93dc36",
-  "upstream_digest_arm64": "sha256:af86b6528da8ecaf00e5cc4e5ec27ee3b42f9549c6a679252cf9220cd88aa33e",
+  "upstream_digest_amd64": "sha256:db84a4b9b34cfbb55e4f585cd81bf51e6bd7c6ef2d3901b7ff8ad3e9a345af61",
+  "upstream_digest_arm64": "sha256:5fcf8696aa5b1cce60eeca85f1fcc33b023dccc1413eb5cc4d16793b608d8f64",
   "test_url": "http://localhost:8787/system/status"
 }
