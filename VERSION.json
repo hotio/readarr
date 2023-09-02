@@ -2,7 +2,7 @@
   "description": "nightly",
   "version": "0.3.4.2187",
   "sbranch": "nightly",
-  "upstream_image": "cr.hotio.dev/hotio/base",
+  "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:900e4d4190ce888480b287de41d7b9f8a0c65a14bc1e739feac814ceab93dc36",
   "upstream_digest_arm64": "sha256:af86b6528da8ecaf00e5cc4e5ec27ee3b42f9549c6a679252cf9220cd88aa33e",
