@@ -1,20 +1,21 @@
 {
+  "nightly": {
+    "description": "nightly",
+    "last_updated": "2023-09-08T06:19:59.123Z",
+    "latest": false,
+    "tags": [
+      "nightly",
+      "nightly-0.3.4.2207",
+      "nightly-fe60017"
+    ]
+  },
   "pr": {
+    "last_updated": "2023-09-08T01:38:33.458Z",
+    "latest": "false",
     "tags": [
       "pr-api-books-main-edition",
       "pr-api-books-main-edition-0.3.4.2205",
       "pr-api-books-main-edition-d32f11d"
-    ],
-    "last_updated": "2023-09-08T01:38:33.458Z",
-    "latest": "false"
-  },
-  "nightly": {
-    "tags": [
-      "nightly",
-      "nightly-0.3.4.2207",
-      "nightly-4dc6226"
-    ],
-    "last_updated": "2023-09-08T01:43:40.787Z",
-    "latest": "false"
+    ]
   }
 }
