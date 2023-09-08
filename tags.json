@@ -9,16 +9,6 @@
       "nightly-fe60017"
     ]
   },
-  "pr": {
-    "description": "",
-    "last_updated": "2023-09-08T06:20:12.784Z",
-    "latest": false,
-    "tags": [
-      "pr-api-books-main-edition",
-      "pr-api-books-main-edition-0.3.4.2205",
-      "pr-api-books-main-edition-5add543"
-    ]
-  },
   "testing": {
     "description": "develop",
     "last_updated": "2023-09-08T06:21:44.323Z",
