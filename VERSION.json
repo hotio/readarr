@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "0.3.4.2205",
-  "branch": "api-books-main-edition",
+  "version": "0.3.11.2318",
+  "branch": "ignore-tests",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:f1b248466c452da319278e86d8d69f53aea51243a067678a6d3796863cbb7a5e",
