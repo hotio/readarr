@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "0.3.14.2343",
+  "version": "0.3.14.2344",
   "branch": "nullable-file-path",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
