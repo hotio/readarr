@@ -1,6 +1,6 @@
 {
   "description": "nightly",
-  "version": "0.3.17.2409",
+  "version": "0.3.18.2410",
   "sbranch": "nightly",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
