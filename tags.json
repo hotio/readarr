@@ -11,6 +11,18 @@
       "nightly-32f7423"
     ]
   },
+  "pr-sonarr-pull-ded7c3c6": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-02-08T08:12:01.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/7826473906",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-ded7c3c6",
+      "pr-sonarr-pull-ded7c3c6-0.3.18.2412",
+      "pr-sonarr-pull-ded7c3c6-4a0ad4c"
+    ]
+  },
   "testing": {
     "description": "develop",
     "last_updated": "2024-02-04T21:21:44.293Z",
