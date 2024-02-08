@@ -14,13 +14,13 @@
   "pr-sonarr-pull-ded7c3c6": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-02-08T08:12:01.000Z",
-    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/7826473906",
+    "last_updated": "2024-02-08T22:19:52.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/7836601500",
     "latest": false,
     "tags": [
       "pr-sonarr-pull-ded7c3c6",
       "pr-sonarr-pull-ded7c3c6-0.3.18.2412",
-      "pr-sonarr-pull-ded7c3c6-4a0ad4c"
+      "pr-sonarr-pull-ded7c3c6-64168b7"
     ]
   },
   "testing": {
