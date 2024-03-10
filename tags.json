@@ -11,6 +11,18 @@
       "nightly-772736d"
     ]
   },
+  "pr-indexer-flags": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-03-10T17:52:51.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/8223488204",
+    "latest": false,
+    "tags": [
+      "pr-indexer-flags",
+      "pr-indexer-flags-0.3.21.2456",
+      "pr-indexer-flags-badc6c6"
+    ]
+  },
   "pr-sonarr-pull-c6071f6d": {
     "description": "",
     "hide": true,
