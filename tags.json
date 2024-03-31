@@ -2,13 +2,13 @@
   "nightly": {
     "description": "nightly",
     "hide": false,
-    "last_updated": "2024-03-28T11:35:40.000Z",
-    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/8466625929",
+    "last_updated": "2024-03-31T11:45:34.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/8497906956",
     "latest": false,
     "tags": [
       "nightly",
-      "nightly-0.3.22.2487",
-      "nightly-f53efcc"
+      "nightly-0.3.22.2488",
+      "nightly-b597ae3"
     ]
   },
   "pr-indexer-flags": {
