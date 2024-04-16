@@ -47,6 +47,18 @@
       "pr-sonarr-pull-c6071f6d-7ebcfac"
     ]
   },
+  "pr-sonarr-pull-d6278fce": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-04-16T03:48:36.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/8699632988",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-d6278fce",
+      "pr-sonarr-pull-d6278fce-0.3.24.2508",
+      "pr-sonarr-pull-d6278fce-84b8912"
+    ]
+  },
   "pr-sonarr-pull-ded7c3c6": {
     "description": "",
     "hide": true,
