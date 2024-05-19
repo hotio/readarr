@@ -11,6 +11,18 @@
       "nightly-c832944"
     ]
   },
+  "pr-failing-metadata-api": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-05-19T16:24:30.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/9149003669",
+    "latest": false,
+    "tags": [
+      "pr-failing-metadata-api",
+      "pr-failing-metadata-api-0.3.28.2545",
+      "pr-failing-metadata-api-d58194d"
+    ]
+  },
   "pr-indexer-flags": {
     "description": "",
     "hide": true,
