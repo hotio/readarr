@@ -11,6 +11,18 @@
       "nightly-5dc0ac3"
     ]
   },
+  "pr-bump-dotnet-v6": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-07-19T20:23:45.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/10013869821",
+    "latest": false,
+    "tags": [
+      "pr-bump-dotnet-v6",
+      "pr-bump-dotnet-v6-0.3.32.2586",
+      "pr-bump-dotnet-v6-66e3535"
+    ]
+  },
   "pr-failing-metadata-api": {
     "description": "",
     "hide": true,
