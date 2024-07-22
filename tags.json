@@ -14,13 +14,13 @@
   "pr-bump-dotnet-v6": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-07-19T20:23:45.000Z",
-    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/10013869821",
+    "last_updated": "2024-07-22T23:24:36.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/10049727070",
     "latest": false,
     "tags": [
       "pr-bump-dotnet-v6",
       "pr-bump-dotnet-v6-0.3.32.2586",
-      "pr-bump-dotnet-v6-66e3535"
+      "pr-bump-dotnet-v6-74eb5e7"
     ]
   },
   "pr-failing-metadata-api": {
