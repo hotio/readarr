@@ -194,13 +194,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2024-09-07T01:03:26.000Z",
-    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/10747190904",
+    "last_updated": "2024-09-25T05:25:52.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/11026721674",
     "latest": true,
     "tags": [
       "testing",
       "testing-0.3.32.2587",
-      "testing-1d79973"
+      "testing-d8dff9e"
     ]
   }
 }
