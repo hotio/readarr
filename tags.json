@@ -23,6 +23,18 @@
       "pr-bump-dotnet-v6-1e2aed7"
     ]
   },
+  "pr-bump-packages": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-20T10:22:35.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/11425508366",
+    "latest": false,
+    "tags": [
+      "pr-bump-packages",
+      "pr-bump-packages-0.4.2.2652",
+      "pr-bump-packages-0e7850f"
+    ]
+  },
   "pr-failing-metadata-api": {
     "description": "",
     "hide": true,
