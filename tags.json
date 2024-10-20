@@ -215,6 +215,18 @@
       "pr-sonarr-pull-f2f4a98e-2958778"
     ]
   },
+  "pr-updates-improvements": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-20T08:32:42.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/11424826936",
+    "latest": false,
+    "tags": [
+      "pr-updates-improvements",
+      "pr-updates-improvements-0.4.2.2649",
+      "pr-updates-improvements-59868d8"
+    ]
+  },
   "testing": {
     "description": "develop",
     "hide": false,
