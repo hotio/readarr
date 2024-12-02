@@ -71,6 +71,18 @@
       "pr-migrations-sqlite-6224a2b"
     ]
   },
+  "pr-sonarr-pull-160151c6": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-12-02T15:34:53.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/12122627115",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-160151c6",
+      "pr-sonarr-pull-160151c6-0.4.5.2693",
+      "pr-sonarr-pull-160151c6-b465983"
+    ]
+  },
   "pr-sonarr-pull-33139d4b": {
     "description": "",
     "hide": true,
