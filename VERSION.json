@@ -1,5 +1,5 @@
 {
-  "branch": "sonarr-pull-035c474f",
+  "branch": "sonarr-pull-a840bb54",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:452ec27ecd65c77081967a777fafafa885ee8d9fa251f068e764683171edb2bc",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "0.4.7.2720"
+  "version": "0.4.9.2731"
 }
