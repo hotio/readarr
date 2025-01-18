@@ -194,13 +194,13 @@
   "pr-sonarr-pull-a840bb54": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-01-18T04:23:02.000Z",
-    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/12840823974",
+    "last_updated": "2025-01-18T09:08:17.000Z",
+    "last_updated_url": "https://github.com/hotio/readarr/actions/runs/12842620551",
     "latest": false,
     "tags": [
       "pr-sonarr-pull-a840bb54",
       "pr-sonarr-pull-a840bb54-0.4.9.2731",
-      "pr-sonarr-pull-a840bb54-a6822c0"
+      "pr-sonarr-pull-a840bb54-51afa9c"
     ]
   },
   "pr-sonarr-pull-c6071f6d": {
